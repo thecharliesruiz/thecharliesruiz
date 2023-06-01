@@ -202,6 +202,7 @@ label {
     margin-left: 15px;
     text-shadow: 0px 0px;
     border-color: #FFFFFF;
+	cursor: pointer;
 }
 #container .navsocialmedia {
     width: 25%;
@@ -211,4 +212,29 @@ label {
 .socialmedia  {
     margin-left: 25px;
     margin-bottom: 12px;
+}
+.message{
+	width: 100%;
+	position: relative;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+}
+.megssage .success{
+	font-size: 20px;
+	color: green;
+	position: absolute;
+	animation: sumbit .3s linear;
+	display: none;
+}
+.message .danger{
+	font-size: 20px;
+	color: red;
+	position: absolute;
+	animation: sumbit .3s linear;
+}
+@keyframes sumbit{
+	0%{
+		transform: scale(0.)
+	}
 }
